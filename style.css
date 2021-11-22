@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+
+td {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+td:nth-child(3n) {
+  border-right: 3px solid black;
+}
+
+tr:nth-child(3n) {
+  border-bottom: 3px solid black;
+}
+
+button {
+  font-weight: 700;
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin-top: 40px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
